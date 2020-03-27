@@ -1,0 +1,36 @@
+.details {
+  background-color: rgba($color: #fff, $alpha: 0.6);
+  border-radius: 2.5rem;
+  box-shadow: 0 #fff;
+  color: #000;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  list-style: none;
+  margin: 0 auto;
+  max-width: 40rem;
+  padding: 3rem;
+  &--info {
+    padding-left: 2rem;
+    &--name {
+      font-family: "Roboto Slab";
+      margin: 1rem 0;
+    }
+    &--small {
+      font-size: 0.5rem;
+      font-style: italic;
+    }
+    &--link {
+      display: block;
+      text-align: left;
+      margin-top: 1rem;
+    }
+  }
+  &--stats {
+    &--list {
+      &--li {
+        list-style: none;
+        margin: 1rem 0 0.5rem;
+      }
+    }
+  }
+}
